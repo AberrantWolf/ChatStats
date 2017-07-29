@@ -1,0 +1,11 @@
+config:
+  ==: Config
+  wordList:
+  - wordKey: poop
+    statModifiers:
+    - PottyMouth: 3
+    - Vulgarity: 1
+    - Cleanliness: -1,
+  - wordKey: butts
+    statModifiers:
+    - PottyMouth: 3

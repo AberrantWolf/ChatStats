@@ -1,0 +1,25 @@
+name: ChatStats_Plugin
+version: 0.1
+author: Scott McAwesome
+main: net.rynban.mcp_test.ChatStats_Plugin
+commands:
+  testme:
+    description: See if the command thing worked or not.
+    usage: /testme
+    permission: ChatStats_Plugin.basic
+    permission-message: You don't have <permission>.
+  addstatword:
+    description: Add a word for ChatStats to track and assign its stat change and experience.
+    usage: /addstatword [the_word] [modified_stat] [modifier_value]
+    permission: op
+    permission-message: ""
+  addxpword:
+    description: Add a word for ChatStats to which earns more than 1 XP per usage.
+    usage: /addxpword [the_word] [xp_value]
+    permission: op
+    permission-message: ""
+  statwords:
+    description: List all words which give custom stats.
+    usage: /statwords
+    permission: op
+    permission-message: ""
